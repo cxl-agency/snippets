@@ -1,5 +1,4 @@
-/* array structure - CATEGORY_URL: [TOTAL_REVIEWS, TOTAL_PRODUCTS] */
-var big_data = {"360-degree-feedback-software": [3721,169],
+{"360-degree-feedback-software": [3721,169],
 "3d-architecture-software": [2345,25],
 "3d-cad-software": [2697,43],
 "ab-testing-software": [691,44],
@@ -742,4 +741,4 @@ var big_data = {"360-degree-feedback-software": [3721,169],
 "ecommerce-software": [15292,527],
 "elearning-authoring-tools-software": [1372,56],
 "ipad-kiosk-software": [3110,22],
-"ipad-pos-software": [7092,67]};
+"ipad-pos-software": [7092,67]}
