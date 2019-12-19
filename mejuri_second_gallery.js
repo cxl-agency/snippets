@@ -228,7 +228,7 @@ String.prototype.toHtmlEntities = function() {
 				      "details": "` + html[h++] + `"
 				    },
 				    {
-				      "image": "https://dto508s2j2p46.cloudfront.net/system/spree/products/10048/large/p52506296_TravelCase_closed.png",
+				      "image": "https://dto508s2j2p46.cloudfront.net/system/spree/products/8206/large/p52705058_JewelryBoxBeige_topclosed.png",
 				      "link": "/shop/products/travel-case-beige",
 				      "details": "` + html[h++] + `"
 				    },
