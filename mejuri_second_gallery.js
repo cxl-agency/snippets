@@ -18,7 +18,7 @@ String.prototype.toHtmlEntities = function() {
 	price['USD'][1] = '$125';
 	price['USD'][2] = '$285';
 	price['USD'][3] = '$80';
-	price['USD'][4] = '$85';
+	price['USD'][4] = '$150';
 	price['USD'][5] = '$170';
 	price['USD'][6] = '$80';
 	price['USD'][7] = '$85';
@@ -31,7 +31,7 @@ String.prototype.toHtmlEntities = function() {
 	price['AUD'][1] = 'AU$220';
 	price['AUD'][2] = 'AU$495';
 	price['AUD'][3] = 'AU$140';
-	price['AUD'][4] = 'AU$150';
+	price['AUD'][4] = 'AU$260';
 	price['AUD'][5] = 'AU$295';
 	price['AUD'][6] = 'AU$140';
 	price['AUD'][7] = 'AU$150';
@@ -44,7 +44,7 @@ String.prototype.toHtmlEntities = function() {
 	price['CAD'][1] = 'C$160';
 	price['CAD'][2] = 'C$370';
 	price['CAD'][3] = 'C$105';
-	price['CAD'][4] = 'C$110';
+	price['CAD'][4] = 'C$195';
 	price['CAD'][5] = 'C$220';
 	price['CAD'][6] = 'C$100';
 	price['CAD'][7] = 'C$110';
@@ -99,7 +99,35 @@ String.prototype.toHtmlEntities = function() {
 		`.replace(/(\r\n|\n|\r|\t)/g, '');
 
 	html[h++] = 
-		`<span class='cxl_item_price'>` + price[currency][p++] + `</span><h4>Travel Case</h4><div class='product-color__selector cxl_color_selector'><dl class='size-selector'><dd class='size-selector__options'><div class='radio radio--is-checked' cxl_hover_style='background-image: url(https://dto508s2j2p46.cloudfront.net/system/spree/products/10050/large/p52506296_TravelCase_open.png);' cxl_item_link='https://mejuri.com/shop/products/travel-case-beige' cxl_item_color='Beige Grain Leather' cxl_image_style='background-image: url(https://dto508s2j2p46.cloudfront.net/system/spree/products/10048/large/p52506296_TravelCase_closed.png);'><label><input type='radio' value='1226'><img class='material-category__icon' src='https://dto508s2j2p46.cloudfront.net/system/material_categories/icons/000/000/075/original/nude.svg'></label></div><div class='radio' cxl_hover_style='background-image: url(https://dto508s2j2p46.cloudfront.net/system/spree/products/10053/large/p52704739_TravelCaseBlack_open.png);' cxl_item_link='https://mejuri.com/shop/products/travel-case' cxl_item_color='Black Grain Leather' cxl_image_style='background-image: url(https://dto508s2j2p46.cloudfront.net/system/spree/products/10051/large/p52704739_TravelCaseBlack_closed.png);'><label><input type='radio' value='1501'><img class='material-category__icon' src='https://dto508s2j2p46.cloudfront.net/system/material_categories/icons/000/000/074/original/Untitled-3.svg'></label></div></dd></dl></div><p class='cxl_item_color'>Beige Grain Leather</p>
+		`<span class='cxl_item_price'>` + price[currency][p++] + `</span>
+			<h4>Jewelry Box</h4>
+			<div class='product-color__selector cxl_color_selector'>
+				<dl class='size-selector'>
+					<dd class='size-selector__options'>
+						<div class='radio radio--is-checked' 
+							cxl_hover_style='background-image: url(https://dto508s2j2p46.cloudfront.net/system/spree/products/8208/large/p52705058_JewelryBoxBeige_openfull.png);' 
+							cxl_item_link='https://mejuri.com/shop/products/jewelry-box-beige' 
+							cxl_item_color='Beige Grain Leather' 
+							cxl_image_style='background-image: url(https://dto508s2j2p46.cloudfront.net/system/spree/products/8206/large/p52705058_JewelryBoxBeige_topclosed.png);'>
+							<label>
+								<input type='radio' value='1226'>
+									<img class='material-category__icon' src='https://dto508s2j2p46.cloudfront.net/system/material_categories/icons/000/000/075/original/nude.svg'>
+							</label>
+							</div>
+							<div class='radio' 
+								cxl_hover_style='background-image: url(https://dto508s2j2p46.cloudfront.net/system/spree/products/8211/large/JewelryBox_Black_open_full.png);' 
+								cxl_item_link='https://mejuri.com/shop/products/jewelry-box-black' 
+								cxl_item_color='Black Grain Leather' 
+								cxl_image_style='background-image: url(https://dto508s2j2p46.cloudfront.net/system/spree/products/8209/large/JewelryBox_Black_closed.png);'>
+							<label>
+								<input type='radio' value='1501'>
+									<img class='material-category__icon' src='https://dto508s2j2p46.cloudfront.net/system/material_categories/icons/000/000/074/original/Untitled-3.svg'>
+							</label>
+						</div>
+					</dd>
+				</dl>
+			</div>
+			<p class='cxl_item_color'>Beige Grain Leather</p>
 		`.replace(/(\r\n|\n|\r|\t)/g, '');
 
 	html[h++] = 
