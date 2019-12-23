@@ -1,19 +1,4 @@
-// https://www.crampdefense.com/pages/muscle-cramps
-/*
-https://www.crampdefense.com/pages/leg-cramps-2
-https://www.crampdefense.com/pages/muscle-cramps-2
-https://www.crampdefense.com/pages/muscle-cramps-3
-https://www.crampdefense.com/pages/nighttime-leg-cramps-2
-https://www.crampdefense.com/pages/leg-cramps-causes-1
-https://www.crampdefense.com/pages/muscle-cramps
-https://www.crampdefense.com/pages/night-evening-leg-cramps
-https://www.crampdefense.com/pages/prevent-leg-cramps
-https://www.crampdefense.com/pages/nighttime-leg-cramps
-https://www.crampdefense.com/pages/muscle-spasms
-
-LANDING_
-*/
-
+/* muscle */
 console.log('[CXL] Experiment running.');
 function defer(method) {
     if (window.jQuery) {
