@@ -1,0 +1,89 @@
+.hero__banner{
+	height: 52px;
+}
+
+.container.answer__container.hero__banner-container{
+	float: left;
+	width: auto;
+}
+
+.cxl_container{
+	float: right;
+}
+
+.cxl_button1{
+	margin: 0;
+	cursor: pointer;
+	
+	font-family: Roboto Condensed;
+	font-style: normal;
+	font-weight: bold;
+
+	height: 34px;
+	background: #FFFFFF;
+	border-radius: 7px;
+	color: #3D91D9;
+	text-align: left;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-transform: none;
+	font-size: 16px;
+	line-height: 37px;
+}
+
+.cxl_button1:after{
+	content: "_______";
+	width: 19px;
+	max-width: 19px;
+	color: transparent;
+	display: inline-block;
+	margin-left: 10px;
+	background: center center no-repeat url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAyMCAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTE5LjcwNzEgOC43MDcxMUMyMC4wOTc2IDguMzE2NTggMjAuMDk3NiA3LjY4MzQyIDE5LjcwNzEgNy4yOTI4OUwxMy4zNDMxIDAuOTI4OTMyQzEyLjk1MjYgMC41Mzg0MDggMTIuMzE5NSAwLjUzODQwOCAxMS45Mjg5IDAuOTI4OTMyQzExLjUzODQgMS4zMTk0NiAxMS41Mzg0IDEuOTUyNjIgMTEuOTI4OSAyLjM0MzE1TDE3LjU4NTggOEwxMS45Mjg5IDEzLjY1NjlDMTEuNTM4NCAxNC4wNDc0IDExLjUzODQgMTQuNjgwNSAxMS45Mjg5IDE1LjA3MTFDMTIuMzE5NSAxNS40NjE2IDEyLjk1MjYgMTUuNDYxNiAxMy4zNDMxIDE1LjA3MTFMMTkuNzA3MSA4LjcwNzExWk0wIDlIMTlWN0gwVjlaIiBmaWxsPSIjNDZBNUY3Ii8+Cjwvc3ZnPgo=");
+}
+
+.cxl_button1:hover {
+	transform: translateY(-1px);
+}
+
+.cxl_button1:active {
+	transform: translateY(2px);
+}
+
+@media screen and (max-width: 867px){
+	.cxl_button1{
+		width: 100%;
+	}
+	.container.answer__container.hero__banner-container{
+		display: inline-block;
+		width: 95px;
+		margin-top: -5px;
+	}
+	
+	.hero__banner-text.hero__banner-text--condensed{
+		float: left;
+		display: block !important;
+		width: 64px;
+		font-size: 12px;
+	}
+	
+	.hero__banner-text--large,
+	.hero__banner-text--small{
+	    font-size: 10px !important;
+	}
+	
+	.hero__banner-text.hero__banner-text--flex {
+		float: left;
+		width: 30px;
+		margin-top: 20px;
+	}
+
+	.answer__module-share{
+		width: 60px;
+		margin: -10px 0 0 0 !important;
+	}
+	
+	.answer__banner{
+		padding: 8px 5px 8px 5px !important;
+	}
+	
+}
