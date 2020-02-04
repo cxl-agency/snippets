@@ -44,8 +44,9 @@
 /* MOBILE */
 @media screen and (max-width: 867px){
 	.header__button--subscribe{
-
-	}
+		width: 140px !important;
+		background-size: contain !important;
+    }
 
 	.modal__input-container{
 		margin-top: 40px !important;
