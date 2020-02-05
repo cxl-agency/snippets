@@ -12,9 +12,17 @@
 }
 
 /* POPUP */
-.modal__form-title,
-.modal__legal{
+.modal__form-title{
 	visibility: hidden !important;
+}
+
+.modal__legal{
+	visibility: visible !important;
+	width: 65% !important;
+	margin: -8px auto 0px !important;
+	padding: 0 4px !important;;
+	background: #fff !important;;
+	font-size: 14px !important;;
 }
 
 .modal__input-container{
@@ -28,7 +36,7 @@
 }
 
 .button.modal__button:before{
-	content: "Start Learning" !important;
+	content: "Get Started" !important;
 	display: block !important;
 	color: #fff !important;
 	line-height: 49px !important;
@@ -48,6 +56,12 @@
 		width: 140px !important;
 		background-size: contain !important;
     }
+
+	.modal__legal{
+		font-size: 12px !important;;
+		width: 91% !important;
+		margin-top: -2px !important;
+	}
 
 	.modal__input-container{
 		margin-top: 80px !important;
