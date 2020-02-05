@@ -12,9 +12,16 @@
 }
 
 /* POPUP */
-.modal__form-title,
-.modal__legal{
+.modal__form-title{
 	visibility: hidden !important;
+}
+
+.modal__legal{
+	visibility: visible !important;
+	width: 94% !important;
+	margin: 0px auto 0px !important;
+	background: #fff !important;
+	font-size: 14px !important;
 }
 
 .modal__input-container{
@@ -47,6 +54,12 @@
 		width: 140px !important;
 		background-size: contain !important;
     }
+
+	.modal__legal{
+		font-size: 12px !important;
+		width: 89% !important;
+		margin-top: -8px !important;
+	}
 
 	.modal__input-container{
 		margin-top: 40px !important;
