@@ -1,6 +1,6 @@
 //https://www.codecademy.com/learn/learn-python-3
 
-console.log('[CXL] Experiment running.');
+//console.log('[CXL] Experiment running.');
 
 ( function() {
   
@@ -51,7 +51,7 @@ console.log('[CXL] Experiment running.');
 				if(path.indexOf('learn-python')>-1 || path.indexOf('learn-css')>-1 || path.indexOf('learn-python-3')>-1 || path.indexOf('introduction-to-javascript')>-1 || path.indexOf('learn-sql')>-1 ){
 //				if(!document.querySelector('.cxl-container')){
 				if( !document.querySelector('.cxl-tab-a') ){
-					console.log('setHTML()');
+//					console.log('setHTML()');
 					that.setHTML();
 					//set default view
 					that.hideContainer();
